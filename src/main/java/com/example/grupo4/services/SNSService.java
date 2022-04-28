@@ -18,7 +18,9 @@ public class SNSService {
                     @Override
                     public String accessKeyId() {
                         return System.getenv("AWS_ACCESS_KEY");
+
                     }
+
 
                     @Override
                     public String secretAccessKey() {
